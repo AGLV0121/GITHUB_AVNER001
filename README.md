@@ -1,5 +1,6 @@
-Invoke a python file from C#, getting the speed of C# for list processing, and the python functionality for each instance.
-A better option than Cython.
-Serves as an example for those developers who need raw speed that python lists do not provide.
-
-Also computes similarity scores of two sentences.
+Wrapper to invoke a python function from C#
+Serves as an example for who needs the speed of C# list processing, 
+and the functionality of a python function at each iteration.
+Also computes similarity scores of two sentences:
+both sentences are provided as a single parameter to the python function.
+They are split in the python code.
